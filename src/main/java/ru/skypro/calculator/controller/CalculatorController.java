@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/calculator")
-public class ControllerCalculator {
+public class CalculatorController {
     @GetMapping
     public String hello() {
         return "Добро пожаловать в калькулятор";
